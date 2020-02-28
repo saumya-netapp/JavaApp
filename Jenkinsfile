@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                Echo 'hello jenkinsFile'
+                echo 'hello jenkinsFile'
             }
         }
     }
